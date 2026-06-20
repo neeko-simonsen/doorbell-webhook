@@ -1,0 +1,13 @@
+{
+  "name": "doorbell-webhook",
+  "version": "1.0.0",
+  "description": "Webhook that turns a Roblox doorbell click into a real phone call via Twilio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "twilio": "^5.3.0"
+  }
+}
