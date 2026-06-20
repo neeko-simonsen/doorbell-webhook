@@ -36,7 +36,7 @@ app.post('/ring-doorbell', async (req, res) => {
 
   try {
     const call = await client.calls.create({
-      twiml: '<Response><Say voice="alice">Wifiskeleton killed himself by overdosing. What a idiot, and i miss him.</Say></Response>',
+      twiml: '<Response><Say voice="alice">testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest</Say></Response>',
       to: MY_PHONE_NUMBER,
       from: TWILIO_PHONE_NUMBER,
     });
